@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 
 #load the dataset
-df = pd.read_csv(r"C:\LearnPy\Introduction-to-Machine-Learning\diabetes.csv")
+df = pd.read_csv("C:\LearnPy\Introduction-to-Machine-Learning\diabetes.csv")
 
 #Show first 5 rows
 print(df.head())
