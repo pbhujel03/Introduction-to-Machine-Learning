@@ -40,3 +40,6 @@ print("Accuracy:",accuracy_score(y_test,y_pred))
 
 print("Confusion Matrix:",confusion_matrix(y_test,y_pred))
 print("Classification Report:", classification_report(y_test,y_pred))
+
+#Visualize Confusion Matrix
+
